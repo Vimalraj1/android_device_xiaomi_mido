@@ -201,6 +201,9 @@ PROTOBUF_SUPPORTED := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Sensor
 USE_SENSOR_MULTI_HAL := true
 
