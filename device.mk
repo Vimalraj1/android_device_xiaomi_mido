@@ -214,6 +214,7 @@ PRODUCT_COPY_FILES += \
 
 # HIDL Hack
 PRODUCT_PACKAGES += \
+    android.hidl.manager@1.0-java \
     android.hidl.base@1.0
 
 # IPA Manager
