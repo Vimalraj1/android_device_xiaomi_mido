@@ -108,7 +108,7 @@ PRODUCT_COPY_FILES += \
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
-    device/oneplus/oneplus3/extras/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+    device/xiaomi/mido/extras/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # Camera
 PRODUCT_PACKAGES += \
