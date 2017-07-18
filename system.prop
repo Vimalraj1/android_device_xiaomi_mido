@@ -94,7 +94,7 @@ persist.qfp=false
 ro.fm.transmitter=false
 
 # Frp
-ro.frp.pst=/dev/block/bootdevice/by-name/config
+#ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # GPS
 persist.gps.qc_nlp_in_use=1
