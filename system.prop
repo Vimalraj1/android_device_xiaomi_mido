@@ -155,11 +155,6 @@ persist.radio.csvt.enabled=false
 persist.radio.rat_on=combine
 persist.radio.mt_sms_ack=20
 persist.radio.apm_sim_not_pwdn=1
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
-persist.dbg.ims_volte_enable=1
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
 persist.radio.videopause.mode=1
 persist.data.iwlan.enable=true
 persist.dbg.wfc_avail_ovr=0
@@ -183,6 +178,13 @@ ro.sys.fw.empty_app_percent=50
 ro.sys.fw.trim_empty_percent=100
 ro.sys.fw.trim_cache_percent=100
 ro.sys.fw.trim_enable_memory=2147483648
+
+# VoLTE
+persist.volte_enabled_by_hw=1
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
 
 # Wifi
 wifi.interface=wlan0
