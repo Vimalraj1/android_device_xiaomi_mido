@@ -231,6 +231,11 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libxml2
 
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
+    librsjni
+
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:system/etc/sensors/hals.conf \
