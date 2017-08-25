@@ -304,3 +304,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/fstman.ini:system/etc/wifi/fstman.ini \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
+
+# MSM8953 Headers
+PRODUCT_VENDOR_KERNEL_HEADERS += device/xiaomi/mido/kernel-headers
+
+# Inherit from qcom-common
+$(call inherit-product, device/qcom/common/common.mk)
