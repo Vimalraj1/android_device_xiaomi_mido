@@ -180,11 +180,6 @@ TARGET_POWERHAL_VARIANT := qcom
 # Properties
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
-# Qualcomm
-BOARD_USES_QCOM_HARDWARE := true
-BOARD_USES_QC_TIME_SERVICES := true
-TARGET_USE_SDCLANG := true
-
 # Render
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 SE_OPENGL_RENDERER := true
