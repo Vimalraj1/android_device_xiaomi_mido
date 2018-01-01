@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
+# Call QCOM Utils
+$(call inherit-product, $(DEVICE_PATH)/utils.mk)
+
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := Xiaomi
 PRODUCT_DEVICE := mido
